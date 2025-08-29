@@ -50,4 +50,32 @@ footer{
   .header nav{
     display: block;
   }
+
+  .aside1{
+    display: block;
+  }  
+
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr; 
+    grid-template-rows: auto;     
+    gap: 20px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .container article {
+    border: 1px solid #fcf6e9;
+    padding: 15px;
+    background: #ffffe8;
+  }
+
+  .container aside {
+    grid-column: 3;
+    grid-row: 1/ 3;
+    border: 1px solid #deead3;
+    padding: 15px;
+    background: #f0eeec;
+    border-radius: 50px;
+  }
 }
