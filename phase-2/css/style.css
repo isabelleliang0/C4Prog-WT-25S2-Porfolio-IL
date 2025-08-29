@@ -37,3 +37,11 @@ main{
   padding: 20px;
   background-color: #f8eeee;
 }
+
+footer{
+  background: #fae6e6;
+  color: #940000;
+  border-radius: 50px;
+  margin: 20px;
+  text-align: center;
+}
