@@ -45,3 +45,9 @@ footer{
   margin: 20px;
   text-align: center;
 }
+
+@media (min-width: 1200px) {
+  .header nav{
+    display: block;
+  }
+}
