@@ -17,6 +17,8 @@ body{
 }
 
 header.header {
+  position: sticky;
+  top: 0;
   background: #fae6e6;
   color: #940000;
   padding: 25px;
@@ -39,11 +41,14 @@ main{
 }
 
 footer{
+  position: sticky;
+  bottom: 0;
   background: #fae6e6;
   color: #940000;
   border-radius: 50px;
   margin: 20px;
   text-align: center;
+
 }
 
 @media (min-width: 1200px) {
@@ -54,6 +59,11 @@ footer{
   .aside1{
     display: block;
   }  
+
+  
+.footer nav{
+    display: block;
+  }
 
   .container {
     display: grid;
