@@ -29,6 +29,11 @@ body{
   flex-direction: column;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 header.header {
   position: sticky;
   top: 0;
@@ -111,5 +116,10 @@ main{
     padding: 25px;
     margin: 20px;
   }
+
+  img{
+  max-width: 100%;
+  height: auto;
+}
 
 }
