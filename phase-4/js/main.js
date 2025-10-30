@@ -52,7 +52,7 @@
       } else {
         output.textContent = "No hobbies found!";
       }
-    }
+    };
 
     const getBucketList = async () => {
       output.textContent = 'Loading...';
@@ -70,4 +70,4 @@
       } else {
         output.textContent = "No bucket list items found!";
       }
-    }
+    };
