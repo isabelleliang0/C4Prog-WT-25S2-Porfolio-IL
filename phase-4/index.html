@@ -98,32 +98,39 @@
 
       <article class="article3">
         <header>
-          <h2>THAT'S MY LECTURE</h2>
+          <h2>Ninja API app</h2>
         </header>
         <section>
-          <h3>Heading 3</h3>
-          <h4>Heading 4</h4>
-          <p>
-            Anyone attending an IT lecture should expect that the lecturer knows
-            the subject. But IT lecturers are a funny lot.
-          </p>
-          <p>
-            Jun Li, a programmer, recalls working in IT support at a school.
-          </p>
+          <h2>Ninja API App</h2>
 
-          <p>
-            "I was told to set up a projector in one of the meeting rooms for
-            school staff, as there was a presentation. Having done that, I
-            hooked the presentation laptop to the network and tried to help one
-            of the speakers from the IT faculty update the laptop to IE7. I
-            logged off and asked her to log on with her account to try IE7.
-          </p>
+          <h3>Pick from the following APIs</h3>
+          <input type="checkbox" id="bucketList">
+          <label for="bucketList">Bucket List</label>
 
-          <p>
-            What is that?' she asked when the IE7 install process asked whether
-            phishing should be turned on. After I explained it, she told me that
-            she was about to present a talk on internet security."
-          </p>
+          <input type="checkbox" id="hobbies">
+          <label for="hobbies">Hobbies</label>
+          
+
+          <div class="generator" id="hobbySection">
+              <label for="category">Choose category:</label>
+              <select id="category">
+                <option value="general">General</option>
+                <option value="education">Education</option>
+                <option value="sports_and_outdoors">Sports and Outdoors</option>
+                <option value="collection">Collection</option>
+                <option value="competition">Competition</option>
+                <option value="observation">Observation</option>
+              </select>
+          </div>
+
+
+          <div class="outputbox" id="output">
+            Click the button to get a result!
+          </div>
+
+          <button id="getResponseButton">Get Response</button>
+
+
           <img src="assets/img/Story_Illustration.jpg" alt="">
         </section>
       </article>
@@ -227,5 +234,6 @@ This is the first we've heard of someone trying to fix a computer by intimidatin
         </ul>
       </nav>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
